@@ -28,14 +28,32 @@ else
   answer
 end
  
-
-  
-  
  
 end
 
 def get_japanese_emoticon(emogies_library,emogi)
 
- library = load_library(emogies_library)
+answer = ""
+
+ library = load_library(emogies_library) 
+  
+    library.each{|emoginame, innerhash|
+      
+       innerhash.each{|language,emote| 
+            
+            if emote == emogi 
+              answer = 
+       
+       
+       }
+                 }
+         
+ if answer == ""
+   answer = "Sorry, that emoticon was not found"
+   
+else
+  answer
+end
+ 
           
 end
