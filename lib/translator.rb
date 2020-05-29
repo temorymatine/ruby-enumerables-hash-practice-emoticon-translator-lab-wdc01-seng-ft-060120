@@ -42,8 +42,8 @@ answer = ""
        innerhash.each{|language,emote| 
             
             if emote == emogi 
-              answer = 
-       
+              answer = innerhash[:japanese]
+            end
        
        }
                  }
