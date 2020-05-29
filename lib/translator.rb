@@ -21,9 +21,11 @@ def get_english_meaning(emogies_library, emogi)
         
                  }
          
-         
+  if answer = ""
+    p "Sorry, that emoticon was not found"
+  else
   answer 
-
+end
   
   
  
