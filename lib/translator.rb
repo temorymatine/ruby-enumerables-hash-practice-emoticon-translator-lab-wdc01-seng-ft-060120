@@ -22,7 +22,7 @@ def get_english_meaning(emogies_library, emogi)
                  }
          
  p answer        
- answer
+ p answer
 
   
   
