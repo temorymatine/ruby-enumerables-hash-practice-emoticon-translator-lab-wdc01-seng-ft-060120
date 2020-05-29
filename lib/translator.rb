@@ -22,7 +22,7 @@ def get_english_meaning(emogies_library, emogi)
                  }
          
  if answer == ""
-   p  "hi"
+   answer = "Sorry, that emoticon was not found"
    
 else
   answer
