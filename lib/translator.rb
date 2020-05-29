@@ -21,11 +21,8 @@ def get_english_meaning(emogies_library, emogi)
         
                  }
          
-  answer
-  
-  if answer = ""
-    p " hello"
-  end
+ puts answer
+
   
   
  
